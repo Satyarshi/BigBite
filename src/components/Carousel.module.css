@@ -1,0 +1,28 @@
+.carouselContainer {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: end;
+  width: 100%;
+}
+.carouselCard {
+  display: flex;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.btnNext {
+  position: absolute;
+  top: 13%;
+  right: 75px;
+  z-index: 1;
+}
+.btnPrev {
+  position: absolute;
+  top: 13%;
+  right: 125px;
+  z-index: 1;
+}
+.line {
+  background-color: #f0f0f5;
+}
